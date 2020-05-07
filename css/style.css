@@ -1,0 +1,112 @@
+html{
+    box-sizing: border-box;
+}
+*, *:after, *:before{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 49vmin;
+    height: 75vmin;
+    position: absolute;
+    top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 10vmin 10vmin 10vmin 10vmin;
+    grid-template-rows: 10vmin 10vmin 10vmin 10vmin 10vmin;
+    row-gap: 3vmin;
+    column-gap: 3vmin;
+}
+.pow {
+    padding-bottom: 1vmin;
+}
+input {
+    margin-bottom: 3vmin;
+    width: 100%;
+    height: 10vmin;
+    box-shadow: 0 0.5vmin 0.5vmin rgba(0, 0, 0, 0.25);
+    border-radius: 0.8vmin;
+    font-size: 5vmin;
+    border: none;
+    outline: none;
+    padding: 3vmin 1.5vmin 0;
+    font-family: 'Barlow', sans-serif;
+}
+.btn {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 5vmin;
+    box-shadow: 0 0.5vmin 0.5vmin rgba(0, 0, 0, 0.25);
+    border-radius: 0.8vmin;
+    border: none;
+    outline: none;
+    user-select: none;
+    font-family: 'Barlow', sans-serif;
+}
+.btn:active {
+    box-shadow: inset 0 0.5vmin 0.5vmin rgba(0, 0, 0, 0.25);
+    padding-top: 0.5vmin;
+}
+.color-schemes ul {
+    position: absolute;
+    right: 0;
+    padding-top: 4vmin;
+    padding-right: 3vmin;
+}
+.color-schemes ul li{
+    display: inline-block;
+}
+.color {
+    height: 4vmin;
+    width: 4vmin;
+    border-radius: 50%;
+}
+.color + .color {
+    margin-left: 1vmin;
+}
+.color-active {
+    border: #1dd1a1 solid 0.2vmin;
+}
+.dark {
+    background-color: #466079;
+}
+.light {
+    background-color: #fdfdfd;
+}
+
+/*COLOR SCHEMES*/
+    /*Dark*/
+.btn[data-color-scheme="dark"] {
+    background-color: #466079;
+    color: #212E3C;
+}
+.btn[data-color-scheme="dark"]:hover {
+    background-color: #526F8B;
+}
+.btn[data-color-scheme="dark"]:active {
+    background-color: #293A4A;
+    color: #1B2733
+}
+body[data-color-scheme="dark"] {
+    background-color: #2C3E50;
+}
+    /*Light*/
+.btn[data-color-scheme="light"] {
+    background-color: #fdfdfd;
+    color: #bdc3c7 ;
+}
+.btn[data-color-scheme="light"]:hover {
+    background-color: #ffffff;
+}
+.btn[data-color-scheme="light"]:active {
+    background-color: #dedede;
+    color: #c3c3c3
+}
+body[data-color-scheme="light"] {
+    background-color: #f1f2f6;
+}
