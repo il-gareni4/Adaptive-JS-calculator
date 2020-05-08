@@ -16,8 +16,8 @@ html{
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 10vmin 10vmin 10vmin 10vmin;
-    grid-template-rows: 10vmin 10vmin 10vmin 10vmin 10vmin;
+    grid-template-columns: repeat(4, 10vmin);
+    grid-template-rows: repeat(5, 10vmin);
     row-gap: 3vmin;
     column-gap: 3vmin;
 }
@@ -183,4 +183,30 @@ body[data-color-scheme="blue"] {
 }
 body[data-color-scheme="purple"] {
     background-color: #8e44ad;
+}
+
+/*MEDIA*/
+
+@media (max-width: 576px) {
+    input {
+        height: 13vmin;
+        font-size: 6vmin;
+        padding: 5vmin 1.5vmin 0;
+    }
+    .grid-container {
+        grid-template-columns: repeat(4, 13vmin);
+        grid-template-rows: repeat(5, 13vmin);
+    }
+    .container {
+        width: 61vmin;
+        height: 80vmin;
+        position: absolute;
+        top: 50%;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .color {
+        height: 5vmin;
+        width: 5vmin;
+    }
 }

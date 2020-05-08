@@ -50,11 +50,10 @@
         </div>
     </div>
     <script>
-        let mathExp = sessionStorage.getItem("mathExp");
+        let mathExp = sessionStorage.getItem("mathExp") ? sessionStorage.getItem("mathExp") : "";
         let color = localStorage.getItem("colorScheme") ? localStorage.getItem("colorScheme") : "dark";
 
-        if (mathExp === null) $("input")[0].value = "";
-        else $("input")[0].value = mathExp;
+        $("input")[0].value = mathExp;
 
         for (let elem of $(`[data-color-scheme]`)) {
             elem.dataset.colorScheme = color;
