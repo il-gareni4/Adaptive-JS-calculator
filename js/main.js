@@ -45,15 +45,17 @@ $(function () {
 
     $(".ce").click(function () {
         let search = input.value.match(/\d+/gm);
-        if (input.value[input.value.length - 1].search(/\d/) !== -1) {
-            input.value = input.value.slice(0, -search[search.length - 1].length);
+        if (input.value) {
+            if (input.value[input.value.length - 1].search(/\d/) !== -1) {
+                input.value = input.value.slice(0, -search[search.length - 1].length);
+            }
         }
     });
 
     $(".color").click(function (event) {
         for (let elem of $(`[data-color-scheme]`)) {
             elem.dataset.colorScheme = event.target.classList[0];
-            elem.style.transition = "background-color 1s";
+            elem.style.transition = "background-color 1s, color 1s";
             elem.addEventListener("transitionend", () => elem.style.transition = "");
         }
         $(".color-active")[0].classList.toggle("color-active")

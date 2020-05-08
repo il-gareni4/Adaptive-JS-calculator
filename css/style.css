@@ -78,6 +78,12 @@ input {
 .light {
     background-color: #fdfdfd;
 }
+.orange {
+    background-color: #e67e22;
+}
+.emerald {
+    background-color: #2ecc71;
+}
 
 /*COLOR SCHEMES*/
     /*Dark*/
@@ -109,4 +115,34 @@ body[data-color-scheme="dark"] {
 }
 body[data-color-scheme="light"] {
     background-color: #f1f2f6;
+}
+    /*emerald*/
+.btn[data-color-scheme="emerald"] {
+    background-color: #2ecc71;
+    color: #1e8449 ;
+}
+.btn[data-color-scheme="emerald"]:hover {
+    background-color: #33d678;
+}
+.btn[data-color-scheme="emerald"]:active {
+    background-color: #229854;
+    color: #166336
+}
+body[data-color-scheme="emerald"] {
+    background-color: #27ae60;
+}
+    /*orange*/
+.btn[data-color-scheme="orange"] {
+    background-color: #e67e22;
+    color: #a14000 ;
+}
+.btn[data-color-scheme="orange"]:hover {
+    background-color: #f58a2b;
+}
+.btn[data-color-scheme="orange"]:active {
+    background-color: #b34700;
+    color: #7d3200
+}
+body[data-color-scheme="orange"] {
+    background-color: #d35400;
 }
