@@ -57,6 +57,7 @@ input {
     right: 0;
     padding-top: 4vmin;
     padding-right: 3vmin;
+    user-select: none;
 }
 .color-schemes ul li{
     display: inline-block;
@@ -84,6 +85,13 @@ input {
 .emerald {
     background-color: #2ecc71;
 }
+.blue {
+    background-color: #3498db;
+}
+.purple {
+     background-color: #9b59b6;
+ }
+
 
 /*COLOR SCHEMES*/
     /*Dark*/
@@ -104,7 +112,7 @@ body[data-color-scheme="dark"] {
     /*Light*/
 .btn[data-color-scheme="light"] {
     background-color: #fdfdfd;
-    color: #bdc3c7 ;
+    color: #bdc3c7;
 }
 .btn[data-color-scheme="light"]:hover {
     background-color: #ffffff;
@@ -145,4 +153,34 @@ body[data-color-scheme="emerald"] {
 }
 body[data-color-scheme="orange"] {
     background-color: #d35400;
+}
+    /*blue*/
+.btn[data-color-scheme="blue"] {
+    background-color: #3498db;
+    color: #1f618d ;
+}
+.btn[data-color-scheme="blue"]:hover {
+    background-color: #3fa4e8;
+}
+.btn[data-color-scheme="blue"]:active {
+    background-color: #226fa2;
+    color: #154b6f
+}
+body[data-color-scheme="blue"] {
+    background-color: #2980b9;
+}
+    /*purple*/
+.btn[data-color-scheme="purple"] {
+    background-color: #9b59b6;
+    color: #6c3484 ;
+}
+.btn[data-color-scheme="purple"]:hover {
+    background-color: #aa63c7;
+}
+.btn[data-color-scheme="purple"]:active {
+    background-color: #793d92;
+    color: #5a286f
+}
+body[data-color-scheme="purple"] {
+    background-color: #8e44ad;
 }

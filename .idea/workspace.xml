@@ -29,7 +29,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588855204849</updated>
       <workItem from="1588855206218" duration="3720000" />
-      <workItem from="1588883068582" duration="14887000" />
+      <workItem from="1588883068582" duration="15622000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring: deleted useless classes">
       <created>1588893909341</created>
@@ -128,10 +127,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080/-1538.0.1538.900@62.0.1858.1080" timestamp="1588893525545" />
-    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588937371162">
+    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588938291978">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/-1538.0.1538.900@62.0.1858.1080" timestamp="1588937371161" />
+    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/-1538.0.1538.900@62.0.1858.1080" timestamp="1588938291978" />
     <state x="248" y="46" width="1378" height="987" key="dock-window-1" timestamp="1588856119041">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
