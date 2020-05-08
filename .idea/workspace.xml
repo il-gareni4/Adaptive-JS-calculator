@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54ab36cc-4d8f-4591-a6b1-897c2192af45" name="Default Changelist" comment="refactoring: deleted useless classes" />
+    <list default="true" id="54ab36cc-4d8f-4591-a6b1-897c2192af45" name="Default Changelist" comment="refactoring: deleted useless classes">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588855204849</updated>
       <workItem from="1588855206218" duration="3720000" />
-      <workItem from="1588883068582" duration="10888000" />
+      <workItem from="1588883068582" duration="13641000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring: deleted useless classes">
       <created>1588893909341</created>
