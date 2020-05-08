@@ -16,14 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54ab36cc-4d8f-4591-a6b1-897c2192af45" name="Default Changelist" comment="refactoring: deleted useless classes">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="54ab36cc-4d8f-4591-a6b1-897c2192af45" name="Default Changelist" comment="feature: added keyboard events" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588855204849</updated>
       <workItem from="1588855206218" duration="3720000" />
-      <workItem from="1588883068582" duration="13641000" />
+      <workItem from="1588883068582" duration="13922000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring: deleted useless classes">
       <created>1588893909341</created>
@@ -75,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588893909341</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature: added keyboard events">
+      <created>1588937103238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588937103238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,7 +95,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -94,17 +115,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactoring: deleted useless classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring: deleted useless classes" />
+    <MESSAGE value="feature: added keyboard events" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: added keyboard events" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588893525545">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="445" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080/-1538.0.1538.900@62.0.1858.1080" timestamp="1588893525545" />
-    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588893956596">
+    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588937299948">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/-1538.0.1538.900@62.0.1858.1080" timestamp="1588893956596" />
+    <state x="800" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/-1538.0.1538.900@62.0.1858.1080" timestamp="1588937299948" />
     <state x="248" y="46" width="1378" height="987" key="dock-window-1" timestamp="1588856119041">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
