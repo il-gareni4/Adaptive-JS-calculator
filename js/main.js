@@ -86,4 +86,9 @@ $(function () {
         } else if (event.key === "Backspace") return true;
         event.preventDefault();
     });
+
+    window.addEventListener("unload", function () {
+        localStorage.setItem("colorScheme", document.body.dataset.colorScheme)
+        sessionStorage.setItem("mathExp", input.value)
+    });
 });

@@ -49,7 +49,15 @@
             <button class="equal btn" data-color-scheme="dark">=</button>
         </div>
     </div>
-
-<script src="js/main.js"></script>
+    <script>
+        $("input")[0].value = sessionStorage.getItem("mathExp")
+        const color = localStorage.getItem("colorScheme");
+        for (let elem of $(`[data-color-scheme]`)) {
+            elem.dataset.colorScheme = color;
+        }
+        $(".color-active")[0].classList.toggle("color-active");
+        $(`.${color}`)[0].classList.toggle("color-active");
+    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
