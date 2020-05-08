@@ -2,10 +2,11 @@ $(function () {
     const input = $("input")[0]
 
     function equal() {
-        let answer = eval(input.value.replace("^", "**")
-            .replace("x", "*")
-            .replace(",", "."));
-        input.value = String(answer).replace(".", ",");
+		let mathExp = input.value.replace(/\^/g, "**")
+            .replace(/x/g, "*")
+            .replace(/,/g, ".");
+        let answer = eval(mathExp);
+        input.value = String(answer).replace(/\./g, ",");
     }
     function del() {
         let isEditable = !input.value.includes("Infinity") && !input.value.includes("NaN");
