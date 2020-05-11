@@ -6,7 +6,11 @@ $(function () {
             .replace(/x/g, "*")
             .replace(/,/g, ".");
         let answer = eval(mathExp);
-        input.value = String(answer).replace(/\./g, ",");
+		if (answer) {
+			input.value = String(answer).replace(/\./g, ",");
+		} else {
+			input.value = "";
+		}
     }
     function del() {
         let isEditable = !input.value.includes("Infinity") && !input.value.includes("NaN");
